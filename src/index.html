@@ -6,8 +6,44 @@
     <title>Sassy Roshambo</title>
   </head>
   <body>
-    <div id="root">
-      <p>Loading...</p>
-    </div>
-  </body>
+      <main>
+        <h1>Ro! Sham! Bo!</h1>
+        <section>
+          <figure class="player">
+            <figcaption>Player</figcaption>
+            <img src="/images/unknown.svg" alt="Player Move" height="200" width="200">
+          </figure>
+          <div class= "scoreCounter">
+            <div class="scores">
+              <h6>Round Score</h6>
+              <span class="player">0</span>
+              :
+              <span class="computer">0</span>
+            </div>
+            <div class="matchScores">
+              <h6>Game Score</h6>
+              <span class="player">0</span>
+              :
+              <span class="computer">0</span>
+            </div>
+          </div>
+          <figure class="computer">
+            <figcaption>Computer</figcaption>
+            <img src="/images/unknown.svg" alt="Computer Move" height="200" width="200">
+          </figure>
+        </section>
+        <p>Choose your weapon wisely.</p>
+        <ul class="player-input">
+          <li><button class="rock">Rock</button></li>
+          <li><button class="paper">Paper</button></li>
+          <li><button class="scissors">Scissors</button></li>
+        </ul>
+      </main>
+      <div class="overlay">
+        <div class="dialog">
+          <h3>!!!</h3>
+          <button>Play Again</button>
+        </div>
+      </div>
+    </body>
 </html>
